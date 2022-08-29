@@ -19,7 +19,7 @@ def parse_args():
     sub_parsers.required = True
 
     debug_parser = sub_parsers.add_parser('debug')
-    debug_parser.set_defaults(func=debug)
+    debug_parser.set_defaults(func=version.print_version)
 
 
     return parser.parse_args()
