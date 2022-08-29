@@ -1,6 +1,6 @@
 from argparse import ArgumentParser, RawTextHelpFormatter, SUPPRESS
 
-from .debug import debug
+from . import version
 
 DESC = """
 
@@ -8,7 +8,7 @@ DESC = """
 
 List of Commands:
 
-     debug -->  used as a dummy entry point to test your project skelleton! 
+     version -->  print the project version to the terminal 
 
 """
 
