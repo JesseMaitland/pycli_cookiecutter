@@ -14,7 +14,7 @@ requires-python = ">=3.10"
 exclude = ["tests*"]
 
 [project.scripts]
-superglue = "{{cookiecutter.repo_name}}.__main__:main"
+{{cookiecutter.cli_cmd}} = "{{cookiecutter.repo_name}}.__main__:main"
 
 
 [tool.semantic_release]

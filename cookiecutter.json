@@ -1,4 +1,5 @@
 {
   "repo_name": "some-python-tool",
+  "cli_cmd": "some-command",
   "author": "Eric Idle"
 }
